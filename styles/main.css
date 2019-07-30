@@ -1,0 +1,82 @@
+.titleContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    border: 1px solid black;
+}
+
+.container{ 
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    flex-basis: 30%;
+    border: 1px solid black;
+    height: 200px;
+    width: 100px;
+}
+
+.box1 {
+    border: 0px;
+}
+
+.box2 {
+    border-top: 0px;
+}
+
+.box3 {
+    border: 0px;
+}
+
+.box4 {
+    border-left: 0px;
+}
+
+.box5 {
+    border: 0px;
+}
+
+.box6 {
+    border-right: 0px;
+}
+
+.box7 {
+    border: 0px;
+}
+
+.box8 {
+    border-bottom: 0px;
+}
+
+.box9 {
+    border: 0px;
+}
+
+.redX {
+    color: red;
+    font-size: 5em;
+}
+
+.blueO {
+    color: blue;
+    font-size: 5em;
+}
+
+.buttonContainer {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.playAgain {
+    background-color: black;
+    color: white;
+    font-size: 2em;
+    cursor: pointer;
+}
